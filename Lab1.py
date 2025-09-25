@@ -24,27 +24,30 @@ def print_teachers_students(Tlastname):
         print()
         return
     
+    print("Showing students of teacher:", Tlastname)
     List_of_students = dict_teacher[Tlastname]
     for student in List_of_students:
-        print(student)
+        print("Student:",student)
     return
 
 def print_by_grade(grade):
     if grade not in dict_grade:
         print()
         return
+    print("Shwoing Students in grade:", grade)
     list_of_students = dict_grade[grade]
     for student in list_of_students:
-        print(student[0] + " " + student[1])
+        print("Last: " + student[0] + " First:" + student[1])
     return
 
 def print_by_bus_route(bus):
     if bus not in dict_buses:
         print()
         return
+    print("Showing Students by bus route: ")
     list_of_students = dict_buses[bus]
     for student in list_of_students:
-        print(student)
+        print("Student: ", student)
     return
 
 def print_high_low_gpa(grade, high_low):
@@ -53,12 +56,14 @@ def print_high_low_gpa(grade, high_low):
         return
 
     if high_low.lower() == "low":
+        print("Student with lowest gpa in grade:", grade)
         c_s = min(dict_grade[grade], key=lambda s: float(s[5]))
     else:
+        print("Student with highest gpa in grade:", grade)
         c_s = max(dict_grade[grade], key=lambda s: float(s[5]))
 
 
-    print(c_s[0] + " " + c_s[1] + " " + c_s[4] + " " + c_s[5] + " " + c_s[6] + " " + c_s[7])
+    print("Student: " + c_s[0] + " " + c_s[1] + " " + c_s[4] + " " + c_s[5] + " " + c_s[6] + " " + c_s[7])
     return
 
 def compute_avg_gpa_for_grade(grade):
@@ -66,7 +71,7 @@ def compute_avg_gpa_for_grade(grade):
     curr_grade = dict_grade[grade]
     for s in curr_grade:
         total += float(s[5])
-
+    print("Average gpa of grade:", grade)
     avg = total/len(curr_grade)
     print(round(avg, 2))
     return

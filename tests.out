@@ -1,0 +1,48 @@
+Student Last Name: COOKUS
+Student First Name: XUAN
+Student ClassRoom: 107
+Teacher LastName: FAFARD
+Teacher FirstName: ROCIO
+
+Student Last Name: COOKUS
+Student First Name: XUAN
+Taken BusRoute: 52
+Showing students of teacher: fafard
+Student: COOKUS XUAN
+Student: ELHADDAD SHANTE
+Student: SWEDLUND SHARRI
+Student: CIGANEK MANIE
+Student: COVINGTON TOMAS
+Student: EARLY TORY
+Student: LINHART LELA
+Shwoing Students in grade: 3
+Last: COOKUS First:XUAN
+Last: ELHADDAD First:SHANTE
+Last: BRODERSEN First:HYE
+Last: SWEDLUND First:SHARRI
+Last: CIGANEK First:MANIE
+Last: COVINGTON First:TOMAS
+Last: EARLY First:TORY
+Last: LINHART First:LELA
+Last: THEUNISSEN First:GRACE
+Student with highest gpa in grade: 3
+Student: SWEDLUND SHARRI 55 3.24 FAFARD ROCIO
+Student with lowest gpa in grade: 3
+Student: CIGANEK MANIE 53 2.79 FAFARD ROCIO
+Showing Students by bus route: 
+Student:  COOKUS XUAN 3 107
+Student:  ELHADDAD SHANTE 3 107
+Student:  IMMERMAN DEVIN 4 105
+Student:  OBREIN STAN 6 111
+Student:  CORONADO DIMPLE 6 102
+Student:  SARAO DIEDRA 2 108
+Student:  EARLY TORY 3 107
+Student:  KEMERER ROSETTA 6 102
+Average gpa of grade: 3
+3.05
+Grade: 3, Number of Students: 9
+Grade: 6, Number of Students: 21
+Grade: 2, Number of Students: 13
+Grade: 4, Number of Students: 15
+Grade: 1, Number of Students: 2
+exiting

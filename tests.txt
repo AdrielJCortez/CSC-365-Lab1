@@ -1,6 +1,7 @@
 // CSC 365
 // Lab 1 full test suite
 // run with: python Lab1.py < tests.txt
+// Lab1.py < tests.txt > tests.out
 
 // TC-1
 // Tests Requirements R3, R4
