@@ -1,0 +1,69 @@
+// CSC 365
+// Lab 1 full test suite
+// run with: python Lab1.py < tests.txt
+
+// TC-1
+// Tests Requirements R3, R4
+// short form command name, existing student
+// expected output: student info
+S: COOKUS
+
+// TC-2
+// Tests Requirements R3, R4
+// short form command name, non-existing student
+// expected output: <empty line>
+S: NONEXISTENT
+
+// TC-3
+// Tests Requirements R3, R5
+// short form command name, existing student w bus
+// expected output: student name, and bus route
+S: COOKUS B
+
+// TC-4
+// Tests Requirements R3, R6
+// short form command name, show the teacher's students
+// expected output: List of students
+T: FAFARD
+
+// TC-5
+// Tests Requirements R3, R7
+// short form command name, show students in a grade
+// expected output: list of students in grade
+G: 3
+
+// TC-6
+// Tests Requirements R3, R9
+// short form command name, show student with highest gpa in grade
+// expected output: student info
+G: 3 high
+
+// TC-7
+// Tests Requirements R3, R9
+// short form command name, show student with the lowest gpa in grade
+// expected output: student info
+G: 3 low
+
+// TC-8
+// Tests Requirements R3, R8
+// short form command name, show students that take given bus route
+// expected output: list of students
+B: 52
+
+// TC-9
+// Tests Requirements R3, R10
+// short form command name, Show average gpa of grade
+// expected output: float
+A: 3
+
+// TC-10
+// Tests Requirements R3, R11
+// short form command name, show have many students in each grade
+// expected output: list of how many students in each grade
+I
+
+// TC-11
+// Tests Requirements R3, R12
+// quit command
+// expected output: program terminates
+Q
