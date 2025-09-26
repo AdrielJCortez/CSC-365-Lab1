@@ -191,5 +191,8 @@ def main():
             for key, value in dict_grade.items():
                 print(f"Grade: {key}, Number of Students: {len(value)}")
 
+        else:
+            print("Enter valid command")
+
 if __name__ == "__main__":
     main()
